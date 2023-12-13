@@ -58,7 +58,6 @@ for filepath in file_paths:
     pdf.cell(w=24, h=8, txt="Edward")
     pdf.image("logo.png")
 
-
     pdf.output(f"PDFs/{filename}.pdf")
 
 
